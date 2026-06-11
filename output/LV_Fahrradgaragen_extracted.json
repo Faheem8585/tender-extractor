@@ -1,0 +1,1975 @@
+{
+  "tenderName": "LV_Fahrradgaragen",
+  "extractedAt": "2026-06-11T15:34:36.027Z",
+  "documentCount": 1,
+  "totalChunks": 9,
+  "rawRequirementCount": 64,
+  "consolidatedRequirementCount": 57,
+  "tree": [
+    {
+      "bulletPoint": "Project Scope",
+      "description": {
+        "en": "Defines the overall project and its main components."
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
+        {
+          "bulletPoint": "Project Overview",
+          "description": {
+            "en": "General description and scope of the project."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Project: Construction of bicycle garages",
+              "description": {
+                "en": "The project involves the construction of bicycle garages as per the tender document.",
+                "original": "Projekt: Errichtung Fahrradgaragen"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p1_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Project Locations",
+          "description": {
+            "en": "Specific locations where the project will be implemented."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Section: Bicycle garages Marienkirchplatz",
+              "description": {
+                "en": "The document includes a section for bicycle garages at Marienkirchplatz.",
+                "original": "01 Fahrradgaragen Marienkirchplatz"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p1_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    },
+    {
+      "bulletPoint": "Commercial Terms",
+      "description": {
+        "en": "Covers tender designation, contractual notes, quantities, and fees."
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
+        {
+          "bulletPoint": "Tender Identification",
+          "description": {
+            "en": "Basic identification details of the tender"
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Tender designation: Construction of bicycle garages",
+              "description": {
+                "en": "The tender is designated as 'Construction of bicycle garages'.",
+                "original": "LV-Bezeichnung: Errichtung Fahrradgaragen"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p1_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Contractual Conditions",
+          "description": {
+            "en": "Preliminary notes and contract texts"
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Section: Preliminary notes / contract texts",
+              "description": {
+                "en": "The document includes a section for preliminary notes and contract texts.",
+                "original": "Vorbemerkungen / Vertragstexte"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p1_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Scope of Work",
+          "description": {
+            "en": "Description of the work to be performed"
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Complete execution including all ancillary services",
+              "description": {
+                "en": "The execution must be complete, including all ancillary services necessary for intended use.",
+                "original": "Die Ausführung erfolgt komplett einschließlich aller für den bestimmungsgemäßen Gebrauch erforderlichen Nebenleistungen."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Quantities",
+          "description": {
+            "en": "Specified quantities for the tender"
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Quantity: 2 units",
+              "description": {
+                "en": "The tender requires 2 units of the described bicycle garage.",
+                "original": "2 St"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Fees and Pricing",
+          "description": {
+            "en": "Details of fees and pricing structures"
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Usage fee for user and operator web portal and smartphone app",
+              "description": {
+                "en": "A usage fee is required for the user and operator web portal and smartphone app, including server operation and maintenance, regular updates, and telephone/remote support.",
+                "original": "Nutzungsgebühr des Nutzer- und Betreiber-Web-Portal sowie Smartphone-App, inkl. Betrieb und Wartung des Servers, regelmäßige UpDates, Telefon-/remote-Support"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p5_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Fee per digital locking cylinder for 60 months",
+              "description": {
+                "en": "A fee per digital locking cylinder is required for a period of 60 months.",
+                "original": "Gebühr je digitalen Schließzylinder für 60 Monate"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p5_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    },
+    {
+      "bulletPoint": "Documentation",
+      "description": {
+        "en": "Includes table of contents and summary sections."
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
+        {
+          "bulletPoint": "Document Structure",
+          "description": {
+            "en": "Requirements related to the overall structure and organization of the document."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Table of contents included",
+              "description": {
+                "en": "The document includes a table of contents listing sections: Preliminary notes/contract texts, Bicycle garages Marienkirchplatz, Booking platform, and Summary.",
+                "original": "Inhaltsverzeichnis LV-Datum: 1 Seite Vorbemerkungen / Vertragstexte 2 01 Fahrradgaragen Marienkirchplatz 3 01.01 Fahrradgaragen 3 02 Buchungsplattform 4 02.02 Buchungsplattform 4 Zusammenstellung 6"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p1_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Document Sections",
+          "description": {
+            "en": "Requirements for specific sections or content within the document."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Section: Summary",
+              "description": {
+                "en": "The document includes a summary section.",
+                "original": "Zusammenstellung"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p1_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    },
+    {
+      "bulletPoint": "Technical Specifications",
+      "description": {
+        "en": "Details the technical requirements for the bicycle garages and booking platform."
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
+        {
+          "bulletPoint": "General Requirements",
+          "description": {
+            "en": "Overall system description and scope of supply for bicycle garages."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Subsection: Bicycle garages (within Marienkirchplatz)",
+              "description": {
+                "en": "The document includes a subsection specifically for bicycle garages under the Marienkirchplatz section.",
+                "original": "01.01 Fahrradgaragen"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p1_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Fahrradgaragen im Baukastensystem mit Kiesdach liefern und montieren",
+              "description": {
+                "en": "Supply and install a modular bicycle garage system with a gravel roof for 3 separately lockable single garages.",
+                "original": "Fahrradgaragen im Baukastensystem mit Kiesdach liefern und montieren"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Each system consists of 3 lockable garages",
+              "description": {
+                "en": "Each of the 2 bicycle garage systems must consist of 3 lockable bicycle garages.",
+                "original": "jeweils 3 abschließbaren Fahrradgaragen"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p2_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Garage für 3 separat abschließbare Einzelgaragen nach DIN 79008",
+              "description": {
+                "en": "Garage for 3 separately lockable single garages according to DIN 79008, ADFC-certified system.",
+                "original": "für 3 separat abschließbare Einzelgaragen nach DIN 79008, ADFC-zertifiziertes System"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Dimensions and Loads",
+          "description": {
+            "en": "Physical dimensions and structural load requirements."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Abmessungen: Länge 2,50m, Tiefe 2,00m, Höhe ca. 1,65m",
+              "description": {
+                "en": "Dimensions: length 2.50m, depth 2.00m, height approx. 1.65m.",
+                "original": "Abmessungen: Länge 2,50m, Tiefe 2,00m, Höhe ca. 1,65m"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Clear door opening minimum width 0.70 m and height 1.45 m",
+              "description": {
+                "en": "The clear door opening must be at least 0.70 m wide and 1.45 m high.",
+                "original": "lichte Türöffnungen: mind. Breite 0,70m x Höhe 1,45m"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Wind load zone up to zone 3",
+              "description": {
+                "en": "The structure must be designed for wind load zone up to zone 3.",
+                "original": "Bemessungsgrundlagen Windlastzone bis Zone 3"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Snow load approximately 1.1 kN/m²",
+              "description": {
+                "en": "The structure must be designed for a snow load of approximately 1.1 kN/m².",
+                "original": "Schneelast ca. 1,1kN/m²"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Maintenance load approximately 1.1 kN/m²",
+              "description": {
+                "en": "The structure must be designed for a maintenance load of approximately 1.1 kN/m².",
+                "original": "Wartungslast ca. 1,1 kN/m²"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Materials and Corrosion Protection",
+          "description": {
+            "en": "Specifications for structural materials, corrosion protection, and coatings."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Tragkonstruktion aus verzinktem, gekantetem Stahlblech, Materialstärke 2mm",
+              "description": {
+                "en": "Support structure made of galvanized, folded steel sheet, material thickness 2mm, statically designed according to relevant standards.",
+                "original": "Tragkonstruktion aus verzinktem, gekantetem Stahlblech, statisch bemessen nach den einschlägigen Normen, Materialstärke 2mm"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Alle erdberührenden Teile aus Edelstahl",
+              "description": {
+                "en": "All ground-contact parts made of stainless steel.",
+                "original": "alle erdberührendene Teile aus Edelstahl"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Korrosionsschutz in Anlehnung an C3 nach DIN EN ISO 12944-2",
+              "description": {
+                "en": "Corrosion protection according to C3 class per DIN EN ISO 12944-2.",
+                "original": "mit Korrosionsschutz in Anlehung an C3 nach DIN EN ISO 12944-2"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Antigraffitischutz Beschichtung",
+              "description": {
+                "en": "Anti-graffiti coating with PU powder, DB certification, color RAL 7016 anthracite grey.",
+                "original": "Antigraffitischutz Beschichtung mit Antigraffiti-Pulver PU, DB-Zertifizierung, Farbe RAL 7016 anthrazitgrau"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p4_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Roof Construction",
+          "description": {
+            "en": "Requirements for the gravel roof and its layers."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Bicycle garages must have a gravel roof",
+              "description": {
+                "en": "The bicycle boxes must be equipped with a gravel roof.",
+                "original": "Die Fahrradboxen erhalten ein Kiesdach"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p2_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Kiesdach aus nachhaltiger Holzkonstruktion",
+              "description": {
+                "en": "Gravel roof made of sustainable timber construction.",
+                "original": "Kiesdach Dach aus nachhaltiger Holzkonstruktion"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Dachaufbau: OSB-3-Platte 15mm, EPDM-Dachbahn 1,5mm, Wurzelschutzvlies, Rundkies 16/32mm 50mm",
+              "description": {
+                "en": "Roof build-up from inside to outside: OSB-3 board approx. 15mm, EPDM membrane approx. 1.5mm, root barrier fleece, round gravel 16/32mm approx. 50mm.",
+                "original": "Aufbau von innen nach außen bestehend aus - OSB-3-Platte, Dicke ca. 15mm - EPDM-Dachbahn, Dicke ca. 1,5mm - Wurzelschutzvlies - Rundkies, Körnung 16/32mm, Höhe ca. 50mm"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Dachrand aus Glattblech mit Korrosionsschutz C3, pulverbeschichtet analog Fassade",
+              "description": {
+                "en": "Roof edge made of smooth sheet metal with corrosion protection C3, powder-coated same as facade.",
+                "original": "mit Dachrand aus Glattblech mit Korrosionsschutz C3, pulverbeschichtet analog Fassadenbekleidung"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Entwässerung über Haupt- und Notablauf DN50 aus Kunststoff, Fallrohr innenliegend",
+              "description": {
+                "en": "Drainage via main and emergency drain DN50 made of plastic, downpipe internal, water outlet centered below the support frame.",
+                "original": "Entwässerung über Haupt- und Notablauf DN50 aus Kunststoff, Fallrohr innenliegend, Wasseraustritt mittig und unterhalb des Tragkorpus"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Doors and Hardware",
+          "description": {
+            "en": "Specifications for doors, handles, and dampers."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Single-leaf steel door per individual garage",
+              "description": {
+                "en": "Each individual garage must have a single-leaf steel door made from folded galvanized steel sheet, powder-coated to match the facade cladding.",
+                "original": "Einflüglige Stahltür je Einzelgarage aus gekantetem verzinktem Stahlblech, pulverbeschichtet analog Fassadenbekleidung"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0",
+                "doc0_p3_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Aluminum handle set with inside lever for emergency opening",
+              "description": {
+                "en": "The door must be equipped with an aluminum handle set featuring an inside lever for emergency opening.",
+                "original": "Ausstattung mit Aluminium-Drückergarnitur mit innenseitiger Klinke als Notfallöffnung"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Door damper",
+              "description": {
+                "en": "The door must include a door damper.",
+                "original": "Türdämpfer"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Finishing and Color",
+          "description": {
+            "en": "Requirements for facade cladding and color."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Fassadenbekleidung aus Stahlblech, pulverbeschichtet, Farbe RAL 7016 anthrazitgrau",
+              "description": {
+                "en": "Facade cladding made of steel sheet, powder-coated with universal polyester powder, color RAL 7016 anthracite grey.",
+                "original": "Fassadenbekleidung aus Stahlblech, Oberfläche pulverbeschichtet mit Universal-Polyesterpulver, Farbe RAL 7016 anthrazitgrau"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Accessories and Installation",
+          "description": {
+            "en": "Additional components like bicycle racks, lighting, and their installation."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Fahrradhalter mit Einfahrtschiene liefern und montieren",
+              "description": {
+                "en": "Supply and install bicycle holders with entry rails made of stainless steel for comfortable wheel guidance, suitable for tire widths from 25 to 65 mm, with front wheel holder to lock the wheel and prevent rolling out. The bicycle holder must be of brand BRIX-IT or equivalent; the bidder must enter the chosen brand.",
+                "original": "Fahrradhalter mit Einfahrtschiene aus Edelstahl zur komfortablen Führung der Räder liefern und montieren, für Reifenbreite von 25 bis 65mm, Vorderradhalter zur Arretierung des Rades und Verhinderung des Herausrollens."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": true,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p4_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Schwenkbare LED-Lichtleiste liefern und montieren",
+              "description": {
+                "en": "Supply and install a swiveling LED light strip, battery-operated, with integrated motion sensor and energy-saving timer.",
+                "original": "schwenkbare LED-Lichtleiste liefern und montieren, batteriebetrieben, mit integriertem Bewegungsensor und energiesparender Zeitschaltung"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p4_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Digital Platform and Access Control",
+          "description": {
+            "en": "Software, locking systems, and user interface for booking and access."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Digital battery-operated locking cylinder with booking platform connection and smartphone app control",
+              "description": {
+                "en": "The door must have a digital, battery-operated locking cylinder that connects to a booking platform. The system must be supplied, installed, and set up to be used exclusively via a smartphone app (iOS/Android) without a stationary terminal on site.",
+                "original": "digitalen, batteriebetriebenen Schließzylinder mit Anschluss an eine Buchungsplattform"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c1",
+                "doc0_p4_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Digitale Buchungsplattform liefern, installieren und einrichten",
+              "description": {
+                "en": "Supply, install and set up a digital cloud-based booking platform, exclusively usable via smartphone app (iOS/Android) with multi-level AI-based and telephone customer service.",
+                "original": "Digitale, cloudbasierte Buchungsplattform liefern, installieren und einrichten ausschlielich nutzbar per Smartphone-App (iOS / Android) und mehrstufigen KI-basierten und telefonischen Kundensu"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p4_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Own QR code and booking instructions",
+              "description": {
+                "en": "The system must have its own QR code and booking instructions.",
+                "original": "Mit eigenem QR-Code und Buchungsanleitung"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p4_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Interactive map for site search and selection",
+              "description": {
+                "en": "The system must provide an interactive map view for searching and selecting bicycle parking facilities via link or QR code.",
+                "original": "interaktive Kartenansicht, Auswahl der Abstellanlagen per Link oder QR-Code"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p5_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Open power-grid-independent, Bluetooth-based locking systems",
+              "description": {
+                "en": "The system must open power-grid-independent, Bluetooth-based locking systems that are independent of the power grid.",
+                "original": "Öffnen von stromnetzunabhängiger, Bluetooth-basierter, stromnetzumabhängiger Schließsysteme"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p4_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "App functions for booking and access",
+              "description": {
+                "en": "The app must include functions for booking and access (implied from context).",
+                "original": "Funktionen für App:"
+              },
+              "priority": "must",
+              "confidence": "medium",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p4_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Time-tiered price overview and flexible tariff systems",
+              "description": {
+                "en": "The system must offer a time-tiered price overview and flexible tariff systems such as pay-as-you-go, monthly and annual rentals.",
+                "original": "zeitlich gestaffelte Preisübersicht, flexible Tarifsysteme (z. B. Pay-as-you-go, Monats- und Jahresmieten)"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p5_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Multiple payment methods",
+              "description": {
+                "en": "The system must support various payment methods including credit card, Klarna, Apple Pay, and Google Pay.",
+                "original": "verschiedene Zahlungsmethoden (z. B. Kreditkarte, Klarna, Apple Pay, Google Pay)"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p5_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Automatic invoicing and booking confirmation via email",
+              "description": {
+                "en": "The system must provide automatic invoicing and send booking confirmation via email.",
+                "original": "automatische Rechnungsstellung und Buchungsbestätigung per E-Mail"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p5_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Reminder before booking period expires",
+              "description": {
+                "en": "The system must send reminders before the booking period expires and provide information on ongoing or completed bookings.",
+                "original": "Erinnerung vor Ablauf des Buchungszeitraums, Informationen zu laufenden oder beendeten Buchungen"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p5_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "User account with registration, login, and history",
+              "description": {
+                "en": "The system must include user account features: registration, login, personal data changes, booking history, and cancellation functions.",
+                "original": "Registrierung, Login, Änderung persönlicher Daten, Buchungshistorie, Stornofunktionen"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p5_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Central management of all facilities and locations",
+              "description": {
+                "en": "The operator web portal must allow central management of all parking facilities and locations, including detailed device configuration (technical parameters, capacities, safety functions).",
+                "original": "Standort- und Anlagenverwaltung: zentrale Verwaltung aller Abstellanlagen und Standorte und detaillierte Konfiguration der Geräte (z. B. technische Parameter, Kapazitäten, Sicherheitsfunktionen)"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p5_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Individual tariff and booking management",
+              "description": {
+                "en": "The operator web portal must allow individual setting of tariff systems, rental durations, tiered prices, and adjustment of booking conditions and reservation options.",
+                "original": "Tarif- und Buchungsmanagement: individuelle Einstellung von Tarifsystemen, Mietdauern und gestaffelten Preisen und Anpassung von Buchungsbedingungen und Reservierungsoptionen"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p5_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Adjustable tariff and booking conditions",
+              "description": {
+                "en": "The booking platform must allow individual adjustment of tariff systems, rental durations, tiered pricing, as well as adjustment of booking conditions and reservation options.",
+                "original": "individuelle Einstellung von Tarifsystemen, Mietdauern und gestaffelten Preisen"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p5_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "User and security management",
+              "description": {
+                "en": "The platform must include user management, rights and access permissions, integration of Single Sign-On (SSO) for external identity providers, GDPR-compliant data storage, and regular security updates.",
+                "original": "Verwaltung der Nutzer, Rechte und Zugangsberechtigungen, Integration von Single Sign-On (SSO) für externe Identitätsprovider, DSGVO-konforme Datenhaltung und regelmäßige Updates der Sicherheitsstandards"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p5_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Evaluation and reporting functions",
+              "description": {
+                "en": "The platform must provide real-time status display of all devices, statistical evaluation of occupancy rates, management of refunds, and detailed billing.",
+                "original": "Echtzeit-Statusanzeige aller Geräte und statistische Auswertung der Belegungsraten, Verwaltung von Rückerstattungen und detaillierten Abrechnungen"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p5_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    },
+    {
+      "bulletPoint": "Installation",
+      "description": {
+        "en": "Covers delivery, installation, and setup of the bicycle garages and booking platform."
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
+        {
+          "bulletPoint": "Delivery and Setup",
+          "description": {
+            "en": "Covers the delivery and initial setup of the bicycle garage systems."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Delivery and installation of 2 bicycle garage systems",
+              "description": {
+                "en": "The tender covers the delivery and installation of 2 bicycle garage systems, each consisting of 3 lockable bicycle garages.",
+                "original": "Lieferung und Aufstellung von 2 Stück Fahrradgaragensystemen besteht aus jeweils 3 abschließbaren Fahrradgaragen."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p2_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Foundation and Placement",
+          "description": {
+            "en": "Requirements for installing the system on existing surfaces without ground anchoring."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Install directly on existing water-bound path surface",
+              "description": {
+                "en": "The bicycle garages must be placed directly onto the existing water-bound path surface without additional foundation.",
+                "original": "direkt auf die vorhandene wassergebundene Wegedecke aufzustellen"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p2_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Installation without ground anchoring on existing water-bound path surface",
+              "description": {
+                "en": "The garage must be installed without ground anchoring on the existing water-bound path surface, using leveling feet to compensate for slopes up to approximately 2%.",
+                "original": "Aufstellen ohne Bodenverankerung auf vorhandener wassergebundener Wegedecke gemäß Herstellerangaben mit Nivellierfüßen zum Ausgleich von Gefälle bis ca. 2%."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Portal Setup",
+          "description": {
+            "en": "Setting up the portal including consultation for master data."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Set up portal including operator consultation for master data",
+              "description": {
+                "en": "The portal must be set up including consultation of the operator for providing master data and setting up the location on the operator's server.",
+                "original": "Einrichtung des Portals inkl. Beratung des Betreibers zur Bereitstellung der Stammdaten, Einrichtung des Standortes auf dem Server des Betreibers"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p4_c1"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    },
+    {
+      "bulletPoint": "Software / IT",
+      "description": {
+        "en": "Refers to the booking platform as a software component."
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
+        {
+          "bulletPoint": "Booking System",
+          "description": {
+            "en": "Requirements related to the booking platform functionality."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Booking platform",
+              "description": {
+                "en": "The document includes a section and a subsection for the booking platform and its details.",
+                "original": "02 Buchungsplattform"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p1_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    },
+    {
+      "bulletPoint": "Maintenance",
+      "description": {
+        "en": "Includes ongoing support and maintenance services."
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
+        {
+          "bulletPoint": "Customer Support Channels",
+          "description": {
+            "en": "Requirements for customer support services including AI-based and telephone support."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Multi-level AI-based and telephone customer support",
+              "description": {
+                "en": "The system must include multi-level AI-based and telephone customer support, with automated AI-based first-level support available 24/7 in 14 languages and a second-level support hotline.",
+                "original": "mehrstufigen KI-basierten und telefonischen Kundensupport"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p4_c1",
+                "doc0_p5_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    },
+    {
+      "bulletPoint": "Health & Safety",
+      "description": {
+        "en": "Addresses data protection and security requirements."
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
+        {
+          "bulletPoint": "Data Protection",
+          "description": {
+            "en": "Requirements for GDPR compliance and data encryption."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "GDPR-compliant server and encrypted data transmission",
+              "description": {
+                "en": "The system must provide GDPR-compliant server deployment and encrypted data transmission.",
+                "original": "DSGVO-konforme Serverbereitstellung, verschlüsselte Datenübertragung"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p5_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    }
+  ]
+}

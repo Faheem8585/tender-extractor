@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+*.pdf
+sample-tenders/
+{output,sample-tenders}/
+# Keep output/*.json tracked so sample outputs are included in submission
+# Keep output/*_viewer.html untracked (generated files)
+output/*_viewer.html
+# Keep consolidated sidecars untracked (large intermediate files)
+output/*_consolidated.json
