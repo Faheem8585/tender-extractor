@@ -1,15 +1,15 @@
 {
   "tenderName": "Tender_For_Christmas_Lights_Installation_2026",
-  "extractedAt": "2026-06-11T15:32:10.881Z",
+  "extractedAt": "2026-06-11T16:47:28.034Z",
   "documentCount": 1,
-  "totalChunks": 8,
-  "rawRequirementCount": 62,
-  "consolidatedRequirementCount": 59,
+  "totalChunks": 5,
+  "rawRequirementCount": 71,
+  "consolidatedRequirementCount": 66,
   "tree": [
     {
-      "bulletPoint": "Technical Specifications",
+      "bulletPoint": "Scope of Work",
       "description": {
-        "en": "Requirements related to the technical aspects of the lights and their testing."
+        "en": "Scope of Work"
       },
       "priority": "must",
       "confidence": null,
@@ -22,9 +22,9 @@
       "openQuestionId": null,
       "deliverableArray": [
         {
-          "bulletPoint": "Installation and Maintenance",
+          "bulletPoint": "Christmas Light Services",
           "description": {
-            "en": "Requirements related to the installation, maintenance, dismantling, and testing of Christmas lights."
+            "en": "Covers installation, maintenance, dismantling, and testing of Christmas lights."
           },
           "priority": "must",
           "confidence": null,
@@ -39,8 +39,7 @@
             {
               "bulletPoint": "Installation, maintenance, dismantling, and testing of Christmas lights",
               "description": {
-                "en": "The contractor must provide installation, maintenance, dismantling, and testing of Christmas lights in Broseley.",
-                "original": "This tender is for the installation, maintenance, dismantling, and testing of the Christmas Lights."
+                "en": "The tender covers installation, maintenance, dismantling, and testing of Christmas lights."
               },
               "priority": "must",
               "confidence": "high",
@@ -54,161 +53,6 @@
               "deliverableArray": [],
               "procurementDocumentChunkIdArray": [
                 "doc0_p1_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            }
-          ],
-          "procurementDocumentChunkIdArray": [],
-          "workspaceDocumentChunkIdArray": [],
-          "citedProductIdArray": [],
-          "citedPersonIdArray": []
-        },
-        {
-          "bulletPoint": "Electrical Testing",
-          "description": {
-            "en": "Requirements for electrical testing of lights and feeder pillars to current standards."
-          },
-          "priority": "must",
-          "confidence": null,
-          "equivalenceAllowed": null,
-          "fullfillable": null,
-          "status": "waitingForAnalysis",
-          "aiReasoning": null,
-          "feedback": null,
-          "feedbackText": null,
-          "openQuestionId": null,
-          "deliverableArray": [
-            {
-              "bulletPoint": "Electric testing of lights to current standards",
-              "description": {
-                "en": "Perform electrical testing of all lights to current standards.",
-                "original": "Electric testing of lights to current standards"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p3_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Test all electric feeder pillars",
-              "description": {
-                "en": "Test all electric feeder pillars for functionality and safety.",
-                "original": "Testing of all electric feeder pillars"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p3_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            }
-          ],
-          "procurementDocumentChunkIdArray": [],
-          "workspaceDocumentChunkIdArray": [],
-          "citedProductIdArray": [],
-          "citedPersonIdArray": []
-        },
-        {
-          "bulletPoint": "Pre-Installation Testing",
-          "description": {
-            "en": "Requirement that lights must be fully functional before installation."
-          },
-          "priority": "must",
-          "confidence": null,
-          "equivalenceAllowed": null,
-          "fullfillable": null,
-          "status": "waitingForAnalysis",
-          "aiReasoning": null,
-          "feedback": null,
-          "feedbackText": null,
-          "openQuestionId": null,
-          "deliverableArray": [
-            {
-              "bulletPoint": "Lights fully functional before installation",
-              "description": {
-                "en": "All lights and features must be fully functional prior to installation.",
-                "original": "All lights and features must be fully functioning prior to installation."
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p4_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            }
-          ],
-          "procurementDocumentChunkIdArray": [],
-          "workspaceDocumentChunkIdArray": [],
-          "citedProductIdArray": [],
-          "citedPersonIdArray": []
-        },
-        {
-          "bulletPoint": "LED Specifications",
-          "description": {
-            "en": "Requirement to provide details of proposed LEDs and product warranty."
-          },
-          "priority": "must",
-          "confidence": null,
-          "equivalenceAllowed": null,
-          "fullfillable": null,
-          "status": "waitingForAnalysis",
-          "aiReasoning": null,
-          "feedback": null,
-          "feedbackText": null,
-          "openQuestionId": null,
-          "deliverableArray": [
-            {
-              "bulletPoint": "Provide details of proposed LEDs and product warranty",
-              "description": {
-                "en": "The tenderer must provide details of the proposed LEDs and the product warranty.",
-                "original": "Details of proposed LEDs and product warranty"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p5_c0"
               ],
               "workspaceDocumentChunkIdArray": [],
               "citedProductIdArray": [],
@@ -227,9 +71,9 @@
       "citedPersonIdArray": []
     },
     {
-      "bulletPoint": "Commercial Terms",
+      "bulletPoint": "Contract Terms",
       "description": {
-        "en": "Requirements covering pricing, contract duration, evaluation criteria, and administrative conditions."
+        "en": "Contract Terms"
       },
       "priority": "must",
       "confidence": null,
@@ -242,7 +86,7 @@
       "openQuestionId": null,
       "deliverableArray": [
         {
-          "bulletPoint": "Contract Duration",
+          "bulletPoint": "Duration",
           "description": {
             "en": "Requirements related to the length of the service agreement."
           },
@@ -257,12 +101,11 @@
           "openQuestionId": null,
           "deliverableArray": [
             {
-              "bulletPoint": "Service agreement duration options (1, 2, or 3 years)",
+              "bulletPoint": "Submit tender for 1, 2, or 3-year service agreement",
               "description": {
-                "en": "Contractors may submit tenders for a 1-year, 2-year, or 3-year service agreement.",
-                "original": "Contractors are invited to submit tenders for the provision of Christmas lights installation, maintenance, and removal services under a 1-year, 2-year, or 3-year service agreement."
+                "en": "Contractors must submit tenders for a 1-year, 2-year, or 3-year service agreement."
               },
-              "priority": "optional",
+              "priority": "must",
               "confidence": "high",
               "equivalenceAllowed": null,
               "fullfillable": null,
@@ -286,9 +129,9 @@
           "citedPersonIdArray": []
         },
         {
-          "bulletPoint": "Compliance and Certifications",
+          "bulletPoint": "Variations",
           "description": {
-            "en": "Requirements for compliance with written requirements and provision of certificates."
+            "en": "Requirements for handling changes to the contract."
           },
           "priority": "must",
           "confidence": null,
@@ -301,10 +144,73 @@
           "openQuestionId": null,
           "deliverableArray": [
             {
-              "bulletPoint": "Compliance with all written requirements",
+              "bulletPoint": "Variations notified by Town Clerk and agreed in writing",
               "description": {
-                "en": "The contractor must comply with all written requirements in the tender.",
-                "original": "The contract will be awarded to the company that complies with all written requirements"
+                "en": "Any variations to the contract will be notified by the Town Clerk and agreed in writing between both parties."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p2_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    },
+    {
+      "bulletPoint": "Evaluation Criteria",
+      "description": {
+        "en": "Evaluation Criteria"
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
+        {
+          "bulletPoint": "Compliance",
+          "description": {
+            "en": "Ensures the bid meets all mandatory requirements."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Comply with all written requirements",
+              "description": {
+                "en": "The contract will be awarded to the company that complies with all written requirements."
               },
               "priority": "must",
               "confidence": "high",
@@ -318,98 +224,6 @@
               "deliverableArray": [],
               "procurementDocumentChunkIdArray": [
                 "doc0_p1_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Provide accreditation certificates",
-              "description": {
-                "en": "The contractor must include accreditation certificates with the tender response.",
-                "original": "accreditation certificates"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p2_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Provide staff training certificates",
-              "description": {
-                "en": "The contractor must include staff training certificates with the tender response.",
-                "original": "staff training certificates"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p2_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Provide Highway Electrical Registration Scheme certificate",
-              "description": {
-                "en": "A Highway Electrical Registration Scheme certificate must be included with the tender submission.",
-                "original": "Highway Electrical Registration Scheme"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p4_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Submit any other pertinent documents or certificates",
-              "description": {
-                "en": "The tenderer must submit any other pertinent documents or certificates as required.",
-                "original": "Any other pertinent documents/certificates"
-              },
-              "priority": "must",
-              "confidence": "medium",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p5_c0"
               ],
               "workspaceDocumentChunkIdArray": [],
               "citedProductIdArray": [],
@@ -422,9 +236,9 @@
           "citedPersonIdArray": []
         },
         {
-          "bulletPoint": "Evaluation Criteria",
+          "bulletPoint": "Experience and References",
           "description": {
-            "en": "Requirements that form part of the tender evaluation, including references and weighting."
+            "en": "Evaluates past performance and capability to deliver similar projects."
           },
           "priority": "must",
           "confidence": null,
@@ -437,33 +251,9 @@
           "openQuestionId": null,
           "deliverableArray": [
             {
-              "bulletPoint": "Satisfactory references",
+              "bulletPoint": "Provide satisfactory references",
               "description": {
-                "en": "The contractor must have satisfactory references.",
-                "original": "has satisfactory references"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p1_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Best value for money",
-              "description": {
-                "en": "The contract will be awarded to the company offering the best value for money.",
-                "original": "offers the best value for money"
+                "en": "The contractor must have satisfactory references."
               },
               "priority": "must",
               "confidence": "high",
@@ -485,79 +275,9 @@
             {
               "bulletPoint": "Demonstrated ability to deliver similar projects (25% weight)",
               "description": {
-                "en": "The contractor must demonstrate ability to deliver similar projects to a high quality, weighted at 25%.",
-                "original": "Demonstrated ability to deliver similar projects to a high quality 25%"
+                "en": "Evaluation includes demonstrated ability to deliver similar projects to a high quality, weighted at 25%."
               },
               "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p1_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Quality and value for money (30% weight)",
-              "description": {
-                "en": "The tender must demonstrate quality and value for money, weighted at 30%.",
-                "original": "Quality and value for money 30%"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p1_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Price fit within budget (25% weight)",
-              "description": {
-                "en": "The price must fit within the budget, weighted at 25%.",
-                "original": "Price fit within the budget £25%"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p1_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Use of local resources and skills (20% weight)",
-              "description": {
-                "en": "The contractor should use local resources and skills, weighted at 20%.",
-                "original": "Use of local resources and skills 20%"
-              },
-              "priority": "should",
               "confidence": "high",
               "equivalenceAllowed": null,
               "fullfillable": null,
@@ -581,9 +301,181 @@
           "citedPersonIdArray": []
         },
         {
-          "bulletPoint": "Payment Terms",
+          "bulletPoint": "Price and Value",
           "description": {
-            "en": "Requirements regarding payment conditions and schedules."
+            "en": "Assesses cost-effectiveness and budget alignment."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Offer best value for money",
+              "description": {
+                "en": "The contract will be awarded to the company that offers the best value for money."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p1_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Price within budget (25% weight)",
+              "description": {
+                "en": "Evaluation includes price within the budget, weighted at 25%."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p1_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Quality",
+          "description": {
+            "en": "Measures the quality and overall value of the proposal."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Quality and value for money (30% weight)",
+              "description": {
+                "en": "Evaluation includes quality and value for money, weighted at 30%."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p1_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Local Resources",
+          "description": {
+            "en": "Evaluates the use of local resources and skills."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Use of local resources and skills (20% weight)",
+              "description": {
+                "en": "Evaluation includes use of local resources and skills, weighted at 20%."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p1_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    },
+    {
+      "bulletPoint": "Payment Terms",
+      "description": {
+        "en": "Payment Terms"
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
+        {
+          "bulletPoint": "Milestone Payments",
+          "description": {
+            "en": "Payments tied to specific project milestones or completion stages."
           },
           "priority": "must",
           "confidence": null,
@@ -598,8 +490,7 @@
             {
               "bulletPoint": "Payment on satisfactory completion",
               "description": {
-                "en": "Payment will be made upon satisfactory completion of the works.",
-                "original": "Payment for the completed project will be made to the Contractor on satisfactory completion of works."
+                "en": "Payment will be made upon satisfactory completion of works."
               },
               "priority": "must",
               "confidence": "high",
@@ -613,320 +504,6 @@
               "deliverableArray": [],
               "procurementDocumentChunkIdArray": [
                 "doc0_p1_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            }
-          ],
-          "procurementDocumentChunkIdArray": [],
-          "workspaceDocumentChunkIdArray": [],
-          "citedProductIdArray": [],
-          "citedPersonIdArray": []
-        },
-        {
-          "bulletPoint": "Insurance",
-          "description": {
-            "en": "Requirements for insurance coverage and certificates."
-          },
-          "priority": "must",
-          "confidence": null,
-          "equivalenceAllowed": null,
-          "fullfillable": null,
-          "status": "waitingForAnalysis",
-          "aiReasoning": null,
-          "feedback": null,
-          "feedbackText": null,
-          "openQuestionId": null,
-          "deliverableArray": [
-            {
-              "bulletPoint": "Public liability insurance and certificate",
-              "description": {
-                "en": "The contractor must be adequately insured with public liability cover, and a copy of the contractor's current insurance certificate must be included with the tender response.",
-                "original": "adequately insured, with public liability cover"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p2_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Provide current public liability certificate",
-              "description": {
-                "en": "A current public liability certificate must be included with the tender submission.",
-                "original": "Current public liability certificate"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p4_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            }
-          ],
-          "procurementDocumentChunkIdArray": [],
-          "workspaceDocumentChunkIdArray": [],
-          "citedProductIdArray": [],
-          "citedPersonIdArray": []
-        },
-        {
-          "bulletPoint": "Contract Variations",
-          "description": {
-            "en": "Requirements for handling changes to the contract."
-          },
-          "priority": "must",
-          "confidence": null,
-          "equivalenceAllowed": null,
-          "fullfillable": null,
-          "status": "waitingForAnalysis",
-          "aiReasoning": null,
-          "feedback": null,
-          "feedbackText": null,
-          "openQuestionId": null,
-          "deliverableArray": [
-            {
-              "bulletPoint": "Variations notified in writing and agreed",
-              "description": {
-                "en": "Any variations to the contract will be notified to the Contractor by the Town Clerk and agreed in writing between both parties.",
-                "original": "Any variations to the contract will be notified to the Contractor by the Town Clerk and agreed in writing between the two parties."
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p2_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            }
-          ],
-          "procurementDocumentChunkIdArray": [],
-          "workspaceDocumentChunkIdArray": [],
-          "citedProductIdArray": [],
-          "citedPersonIdArray": []
-        },
-        {
-          "bulletPoint": "Pricing and Cost Breakdown",
-          "description": {
-            "en": "Requirements related to pricing, cost inclusion, and itemization."
-          },
-          "priority": "must",
-          "confidence": null,
-          "equivalenceAllowed": null,
-          "fullfillable": null,
-          "status": "waitingForAnalysis",
-          "aiReasoning": null,
-          "feedback": null,
-          "feedbackText": null,
-          "openQuestionId": null,
-          "deliverableArray": [
-            {
-              "bulletPoint": "Tender fully inclusive of all costs",
-              "description": {
-                "en": "The tender must be fully inclusive of all costs.",
-                "original": "the tender is fully inclusive of all costs"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p2_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Cost of any replacement anchor points",
-              "description": {
-                "en": "Include cost for any replacement anchor points needed.",
-                "original": "Cost of any replacement anchor points"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p3_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "State additional call-out charges on schedule",
-              "description": {
-                "en": "Any additional call-out charges must be clearly stated on the schedule provided by the contractor.",
-                "original": "Additional call out charges must be stated on the schedule."
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p4_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Cost all items individually",
-              "description": {
-                "en": "The contractor must provide individual pricing for all items.",
-                "original": "To cost all items individually."
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p4_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            }
-          ],
-          "procurementDocumentChunkIdArray": [],
-          "workspaceDocumentChunkIdArray": [],
-          "citedProductIdArray": [],
-          "citedPersonIdArray": []
-        },
-        {
-          "bulletPoint": "Tender Process and Communication",
-          "description": {
-            "en": "Requirements regarding submission deadlines, communication, and tender process."
-          },
-          "priority": "must",
-          "confidence": null,
-          "equivalenceAllowed": null,
-          "fullfillable": null,
-          "status": "waitingForAnalysis",
-          "aiReasoning": null,
-          "feedback": null,
-          "feedbackText": null,
-          "openQuestionId": null,
-          "deliverableArray": [
-            {
-              "bulletPoint": "Concerns reported to Town Clerk for action",
-              "description": {
-                "en": "Any concerns will be reported to the Town Clerk who will agree an appropriate course of action with the Contractor.",
-                "original": "any concerns will be reported to the Town Clerk who will agree an appropriate course of action with the Contractor"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p2_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Tender consideration and response timeline",
-              "description": {
-                "en": "All tenders received will be considered by the Town Council on 9 June 2026, and all tenders will receive a response from the Town Council week commencing 15 June 2026.",
-                "original": "All tenders received will be considered by the Town Council on 9 June 2026"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p2_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Deadline for submission: 2 June 2026",
-              "description": {
-                "en": "Tender submissions must be received by the deadline of 2 June 2026.",
-                "original": "Deadline for submission: 2 June 2026"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p4_c0"
               ],
               "workspaceDocumentChunkIdArray": [],
               "citedProductIdArray": [],
@@ -947,7 +524,7 @@
     {
       "bulletPoint": "Health & Safety",
       "description": {
-        "en": "Requirements related to health, safety, and risk management during the project."
+        "en": "Health & Safety"
       },
       "priority": "must",
       "confidence": null,
@@ -960,9 +537,9 @@
       "openQuestionId": null,
       "deliverableArray": [
         {
-          "bulletPoint": "General Compliance",
+          "bulletPoint": "Compliance",
           "description": {
-            "en": "Requirements for adherence to health and safety legislation and policies."
+            "en": "Adherence to legal and regulatory requirements."
           },
           "priority": "must",
           "confidence": null,
@@ -975,10 +552,9 @@
           "openQuestionId": null,
           "deliverableArray": [
             {
-              "bulletPoint": "Compliance with health and safety legislation",
+              "bulletPoint": "Comply with all relevant H&S legislation, codes of practice, and regulations",
               "description": {
-                "en": "Contractors must comply with all relevant health and safety legislation.",
-                "original": "Contractors must comply with all relevant H & S legislation."
+                "en": "Contractors must comply with all relevant health and safety legislation, codes of practice, and regulations."
               },
               "priority": "must",
               "confidence": "high",
@@ -1006,7 +582,7 @@
         {
           "bulletPoint": "Public Safety",
           "description": {
-            "en": "Requirements to protect the public and minimize disruption."
+            "en": "Measures to protect the public from hazards."
           },
           "priority": "must",
           "confidence": null,
@@ -1021,8 +597,7 @@
             {
               "bulletPoint": "Minimize risk to the public",
               "description": {
-                "en": "Measures must be taken to minimize any risk to the public.",
-                "original": "Measures must be taken to minimize any risk to the public."
+                "en": "Measures must be taken to minimize any risk to the public."
               },
               "priority": "must",
               "confidence": "high",
@@ -1042,54 +617,9 @@
               "citedPersonIdArray": []
             },
             {
-              "bulletPoint": "Work must cause little disruption to traffic and environment",
+              "bulletPoint": "Do not leave tools on pavement",
               "description": {
-                "en": "Installation must be done with minimal disruption to vehicular and pedestrian traffic, and with consideration for the environment.",
-                "original": "The work must be undertaken in a manner that causes little disruption to traffic both vehicular and pedestrian, as well as with consideration for the environment."
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p3_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            }
-          ],
-          "procurementDocumentChunkIdArray": [],
-          "workspaceDocumentChunkIdArray": [],
-          "citedProductIdArray": [],
-          "citedPersonIdArray": []
-        },
-        {
-          "bulletPoint": "Site Safety",
-          "description": {
-            "en": "Requirements for safe practices on the work site."
-          },
-          "priority": "must",
-          "confidence": null,
-          "equivalenceAllowed": null,
-          "fullfillable": null,
-          "status": "waitingForAnalysis",
-          "aiReasoning": null,
-          "feedback": null,
-          "feedbackText": null,
-          "openQuestionId": null,
-          "deliverableArray": [
-            {
-              "bulletPoint": "Tools not left on pavement as trip hazard",
-              "description": {
-                "en": "Tools must not be left on the pavement where they could present a trip hazard.",
-                "original": "For example, tools must not be left on the pavement where they could present a trip hazard."
+                "en": "Tools must not be left on the pavement where they could present a trip hazard."
               },
               "priority": "must",
               "confidence": "high",
@@ -1115,9 +645,9 @@
           "citedPersonIdArray": []
         },
         {
-          "bulletPoint": "Policy Documentation",
+          "bulletPoint": "Traffic Management",
           "description": {
-            "en": "Requirements for providing health and safety policies."
+            "en": "Safe parking and vehicle operations."
           },
           "priority": "must",
           "confidence": null,
@@ -1130,10 +660,9 @@
           "openQuestionId": null,
           "deliverableArray": [
             {
-              "bulletPoint": "Provide General Health & Safety at Work Policy",
+              "bulletPoint": "Park vehicles without contravening restrictions or causing obstruction",
               "description": {
-                "en": "The contractor must include their General Health & Safety at Work Policy with the tender response.",
-                "original": "General Health & Safety at Work Policy"
+                "en": "Any motor vehicle or plant machinery must be parked so as not to contravene parking restrictions or cause obstruction."
               },
               "priority": "must",
               "confidence": "high",
@@ -1146,17 +675,81 @@
               "openQuestionId": null,
               "deliverableArray": [],
               "procurementDocumentChunkIdArray": [
+                "doc0_p1_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Documentation",
+          "description": {
+            "en": "Provision of health and safety documents."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Produce Health & Safety Information prior to installation",
+              "description": {
+                "en": "The successful contractor must produce Health & Safety Information prior to installation. The Health & Safety Information must include a Schedule of Works and any other relevant documents such as General Health & Safety at Work Policy, accreditation certificates, and staff training certificates."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p1_c0",
                 "doc0_p2_c0"
               ],
               "workspaceDocumentChunkIdArray": [],
               "citedProductIdArray": [],
               "citedPersonIdArray": []
-            },
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Risk Assessment",
+          "description": {
+            "en": "Identification and evaluation of risks."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
             {
-              "bulletPoint": "Provide Health and Safety Policy",
+              "bulletPoint": "Provide Risk Assessment",
               "description": {
-                "en": "The tenderer must submit details of their Health and Safety Policy.",
-                "original": "6 Health and Safety Policy"
+                "en": "The Health & Safety Information must include a Risk Assessment."
               },
               "priority": "must",
               "confidence": "high",
@@ -1169,7 +762,50 @@
               "openQuestionId": null,
               "deliverableArray": [],
               "procurementDocumentChunkIdArray": [
-                "doc0_p5_c0"
+                "doc0_p1_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Method Statement",
+          "description": {
+            "en": "Detailed safe work procedures."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Provide Method Statement",
+              "description": {
+                "en": "The Health & Safety Information must include a Method Statement."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p1_c0"
               ],
               "workspaceDocumentChunkIdArray": [],
               "citedProductIdArray": [],
@@ -1184,7 +820,7 @@
         {
           "bulletPoint": "Anchor Points",
           "description": {
-            "en": "Requirements for testing anchor points."
+            "en": "Testing of safety anchor points."
           },
           "priority": "must",
           "confidence": null,
@@ -1199,7 +835,7 @@
             {
               "bulletPoint": "Test all anchor points",
               "description": {
-                "en": "All anchor points used for the lights must be tested.",
+                "en": "All anchor points must be tested.",
                 "original": "All anchor points tested."
               },
               "priority": "must",
@@ -1232,9 +868,9 @@
       "citedPersonIdArray": []
     },
     {
-      "bulletPoint": "Installation",
+      "bulletPoint": "Technical Specifications",
       "description": {
-        "en": "Requirements for the installation, setup, and dismantling of lights and decorations."
+        "en": "Technical Specifications"
       },
       "priority": "must",
       "confidence": null,
@@ -1247,9 +883,9 @@
       "openQuestionId": null,
       "deliverableArray": [
         {
-          "bulletPoint": "Site Assessment",
+          "bulletPoint": "Electrical Standards",
           "description": {
-            "en": "Requirements related to pre-installation site visits and inspections."
+            "en": "Requirements related to compliance with BS 7671 for erection, testing, and maintenance."
           },
           "priority": "must",
           "confidence": null,
@@ -1262,10 +898,376 @@
           "openQuestionId": null,
           "deliverableArray": [
             {
-              "bulletPoint": "Make necessary site visits before tendering",
+              "bulletPoint": "Erection, testing, and maintenance in accordance with BS 7671",
               "description": {
-                "en": "The contractor is expected to make any necessary site visits prior to submitting a tender to satisfy themselves of access arrangements and other necessary information.",
-                "original": "It will be expected that the Contractor, prior to submitting a tender will have made any necessary site visits and satisfied their self of any access arrangements and any other necessary information required"
+                "en": "Erection, testing, and maintenance must be carried out in accordance with the latest Wiring Regulations (BS 7671)."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p1_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Competency",
+          "description": {
+            "en": "Requirement for work to be undertaken by a competent person per BS 7671."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Work undertaken by a competent person per BS 7671",
+              "description": {
+                "en": "Work must be undertaken by a competent person as laid out in BS 7671."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p1_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Electrical Testing",
+          "description": {
+            "en": "Requirements for testing lights and feeder pillars to current standards."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Electric testing of lights to current standards",
+              "description": {
+                "en": "Perform electric testing of lights to current standards."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Test all electric feeder pillars",
+              "description": {
+                "en": "Test all electric feeder pillars."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Pre-Installation Testing",
+          "description": {
+            "en": "Requirement for lights to be fully functional prior to installation."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Lights fully functional prior to installation",
+              "description": {
+                "en": "All lights and features must be fully functional before installation.",
+                "original": "All lights and features must be fully functioning prior to installation."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p4_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "LED Details",
+          "description": {
+            "en": "Requirement to provide details of proposed LEDs and product warranty."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Provide details of proposed LEDs and product warranty",
+              "description": {
+                "en": "Details of proposed LEDs and product warranty must be included.",
+                "original": "Details of proposed LEDs and product warranty"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p5_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    },
+    {
+      "bulletPoint": "Insurance",
+      "description": {
+        "en": "Insurance"
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
+        {
+          "bulletPoint": "Public Liability",
+          "description": {
+            "en": "Requirements related to public liability insurance coverage."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Adequate public liability insurance",
+              "description": {
+                "en": "The contractor must be adequately insured with public liability cover."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p2_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Documentation",
+          "description": {
+            "en": "Requirements for submitting insurance documentation with the tender."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Include copy of current insurance certificate with tender",
+              "description": {
+                "en": "A copy of the current insurance certificate must be included with the tender response."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p2_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    },
+    {
+      "bulletPoint": "Pre-Tender",
+      "description": {
+        "en": "Pre-Tender"
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
+        {
+          "bulletPoint": "Site Visit",
+          "description": {
+            "en": "Requirements related to site visits before tender submission."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Make necessary site visits before submitting tender",
+              "description": {
+                "en": "The contractor is expected to make any necessary site visits and satisfy themselves of access arrangements and other necessary information before submitting a tender."
               },
               "priority": "should",
               "confidence": "high",
@@ -1283,40 +1285,38 @@
               "workspaceDocumentChunkIdArray": [],
               "citedProductIdArray": [],
               "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Check all anchor points",
-              "description": {
-                "en": "Inspect all anchor points used for light installation.",
-                "original": "Check of all anchor points"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p3_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
             }
           ],
           "procurementDocumentChunkIdArray": [],
           "workspaceDocumentChunkIdArray": [],
           "citedProductIdArray": [],
           "citedPersonIdArray": []
-        },
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    },
+    {
+      "bulletPoint": "Pricing",
+      "description": {
+        "en": "Pricing"
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
         {
-          "bulletPoint": "Supervision and Timeline",
+          "bulletPoint": "Inclusive Pricing",
           "description": {
-            "en": "Requirements for monitoring and scheduling of installation work."
+            "en": "Requirements for fully inclusive cost proposals."
           },
           "priority": "must",
           "confidence": null,
@@ -1329,10 +1329,9 @@
           "openQuestionId": null,
           "deliverableArray": [
             {
-              "bulletPoint": "Town Council representative monitors work",
+              "bulletPoint": "Tender fully inclusive of all costs",
               "description": {
-                "en": "A Town Council representative will monitor the work carried out on a regular basis.",
-                "original": "A Town Council representative will monitor the work carried out on a regular basis"
+                "en": "The tender must be fully inclusive of all costs."
               },
               "priority": "must",
               "confidence": "high",
@@ -1350,52 +1349,6 @@
               "workspaceDocumentChunkIdArray": [],
               "citedProductIdArray": [],
               "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Installation testing must begin on 1 November 2026",
-              "description": {
-                "en": "Installation testing must start on 1 November 2026.",
-                "original": "Installation testing must begin on 1 November 2026."
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p3_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Lights must be in working order no later than one week prior to switch-on",
-              "description": {
-                "en": "Lights must be operational and in working order no later than one week before the switch-on date of 28 November 2026.",
-                "original": "The lights must be in working order in good time, and no later than ONE WEEK PRIOR to the notified switch-on date of Saturday 28 November 2026."
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p3_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
             }
           ],
           "procurementDocumentChunkIdArray": [],
@@ -1404,9 +1357,9 @@
           "citedPersonIdArray": []
         },
         {
-          "bulletPoint": "Lighting Installation",
+          "bulletPoint": "Itemized Costs",
           "description": {
-            "en": "Installation of various lighting fixtures such as pea lights, festoons, and string lights."
+            "en": "Requirements for pricing individual items separately."
           },
           "priority": "must",
           "confidence": null,
@@ -1419,10 +1372,10 @@
           "openQuestionId": null,
           "deliverableArray": [
             {
-              "bulletPoint": "Install and activate 23 sets of pea lights to memorial garden",
+              "bulletPoint": "Cost all items individually",
               "description": {
-                "en": "Install and activate 23 sets of pea lights in the memorial garden.",
-                "original": "Install and activate 23 sets of pea lights to memorial garden"
+                "en": "All items must be individually priced in the tender.",
+                "original": "To cost all items individually."
               },
               "priority": "must",
               "confidence": "high",
@@ -1435,122 +1388,7 @@
               "openQuestionId": null,
               "deliverableArray": [],
               "procurementDocumentChunkIdArray": [
-                "doc0_p3_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Install and activate 1 set of lights to fir tree in memorial garden",
-              "description": {
-                "en": "Install and activate one set of lights on the fir tree within the memorial garden.",
-                "original": "Install and activate 1 set of lights to fir tree within the memorial garden"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p3_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Install and activate 1 set of pea lights to tree on the square",
-              "description": {
-                "en": "Install and activate one set of pea lights on the tree located on the square.",
-                "original": "Install and activate 1 set of pea lights to the tree on the square"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p3_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Install festoons to front of Harwood's building & butchers shop",
-              "description": {
-                "en": "Install festoon lights on the front of Harwood's building and the butcher's shop.",
-                "original": "Install festoons to front of Harwood's building & butchers shop"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p3_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Install festoons to front of Harwood's building & butchers shop",
-              "description": {
-                "en": "Install festoon lights on the front of Harwood's building and the butchers shop.",
-                "original": "Install festoons to front of Harwood’s building & butchers shop"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p3_c1"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Install string lights from church street zig-zagging up high street to social club",
-              "description": {
-                "en": "Install string lights from the top of Church Street, zig-zagging up the high street to the social club.",
-                "original": "Install string lights from the top of church street zig-zagging up the high street to the social club"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p3_c1"
+                "doc0_p4_c0"
               ],
               "workspaceDocumentChunkIdArray": [],
               "citedProductIdArray": [],
@@ -1563,9 +1401,9 @@
           "citedPersonIdArray": []
         },
         {
-          "bulletPoint": "Feature and Signage Installation",
+          "bulletPoint": "Additional Charges",
           "description": {
-            "en": "Installation of decorative features and signage."
+            "en": "Requirements for stating extra charges such as call-outs and replacements."
           },
           "priority": "must",
           "confidence": null,
@@ -1578,10 +1416,9 @@
           "openQuestionId": null,
           "deliverableArray": [
             {
-              "bulletPoint": "Install features to poles within memorial garden",
+              "bulletPoint": "Cost of any replacement anchor points",
               "description": {
-                "en": "Install decorative features on the poles inside the memorial garden.",
-                "original": "Install features to the poles within the memorial garden"
+                "en": "Include cost of any replacement anchor points."
               },
               "priority": "must",
               "confidence": "high",
@@ -1601,212 +1438,10 @@
               "citedPersonIdArray": []
             },
             {
-              "bulletPoint": "Install 'Welcome to Broseley' sign across high street",
+              "bulletPoint": "State additional call-out charges on schedule",
               "description": {
-                "en": "Install a 'Welcome to Broseley' sign across the high street from Victoria Hall to the Bridal Shop.",
-                "original": "Install 'welcome to Broseley' sign across high street (Victoria Hall to Bridal Shop)"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p3_c0",
-                "doc0_p3_c1"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Installation of 2x snow fall column motifs",
-              "description": {
-                "en": "Install two snowfall column motifs.",
-                "original": "Installation of 2x snow fall column motifs"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p3_c1"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            }
-          ],
-          "procurementDocumentChunkIdArray": [],
-          "workspaceDocumentChunkIdArray": [],
-          "citedProductIdArray": [],
-          "citedPersonIdArray": []
-        },
-        {
-          "bulletPoint": "Switch-on Event",
-          "description": {
-            "en": "Requirements for the switch-on event including attendance and manual operation."
-          },
-          "priority": "must",
-          "confidence": null,
-          "equivalenceAllowed": null,
-          "fullfillable": null,
-          "status": "waitingForAnalysis",
-          "aiReasoning": null,
-          "feedback": null,
-          "feedbackText": null,
-          "openQuestionId": null,
-          "deliverableArray": [
-            {
-              "bulletPoint": "Contractor must be present on switch-on day to manually switch on lights",
-              "description": {
-                "en": "The contractor must be present on Saturday 28 November 2026 to manually switch on the lights after a countdown.",
-                "original": "The contractor must be present on the day of the switch-on Saturday 28 November 2026 to manually switch on the lights after a countdown."
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p3_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Attendance at switch on event",
-              "description": {
-                "en": "Attend the switch-on event for the Christmas lights.",
-                "original": "Attendance at switch on event"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p3_c1"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            }
-          ],
-          "procurementDocumentChunkIdArray": [],
-          "workspaceDocumentChunkIdArray": [],
-          "citedProductIdArray": [],
-          "citedPersonIdArray": []
-        },
-        {
-          "bulletPoint": "Timers and Automation",
-          "description": {
-            "en": "Setting up automatic timers for lights after switch-on."
-          },
-          "priority": "must",
-          "confidence": null,
-          "equivalenceAllowed": null,
-          "fullfillable": null,
-          "status": "waitingForAnalysis",
-          "aiReasoning": null,
-          "feedback": null,
-          "feedbackText": null,
-          "openQuestionId": null,
-          "deliverableArray": [
-            {
-              "bulletPoint": "Lights must be set to automatic timers after switch-on",
-              "description": {
-                "en": "After switch-on, lights must be set to automatic timers: on at 4pm, off at 10pm weekdays, and 4pm to 11pm weekends.",
-                "original": "Thereafter the lights need to be set to their automatic timers which result in their coming on at 4pm and going off at 10pm weekdays, and 4pm – 11pm weekends."
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p3_c0"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            }
-          ],
-          "procurementDocumentChunkIdArray": [],
-          "workspaceDocumentChunkIdArray": [],
-          "citedProductIdArray": [],
-          "citedPersonIdArray": []
-        },
-        {
-          "bulletPoint": "Removal and Dismantling",
-          "description": {
-            "en": "Removal and dismantling of lights after the festive period."
-          },
-          "priority": "must",
-          "confidence": null,
-          "equivalenceAllowed": null,
-          "fullfillable": null,
-          "status": "waitingForAnalysis",
-          "aiReasoning": null,
-          "feedback": null,
-          "feedbackText": null,
-          "openQuestionId": null,
-          "deliverableArray": [
-            {
-              "bulletPoint": "Removal of all lights",
-              "description": {
-                "en": "Remove all installed lights after the festive period.",
-                "original": "Removal of all lights"
-              },
-              "priority": "must",
-              "confidence": "high",
-              "equivalenceAllowed": null,
-              "fullfillable": null,
-              "status": "waitingForAnalysis",
-              "aiReasoning": null,
-              "feedback": null,
-              "feedbackText": null,
-              "openQuestionId": null,
-              "deliverableArray": [],
-              "procurementDocumentChunkIdArray": [
-                "doc0_p3_c1"
-              ],
-              "workspaceDocumentChunkIdArray": [],
-              "citedProductIdArray": [],
-              "citedPersonIdArray": []
-            },
-            {
-              "bulletPoint": "Dismantle lights after 6 January, no later than 12 January",
-              "description": {
-                "en": "The lights must be dismantled and removed as soon as possible after 6 January each year, and no later than 12 January.",
-                "original": "The lights are to be dismantled and removed as soon after 6 January each year as possible, but no later than 12 January each year."
+                "en": "Any additional call-out charges must be clearly stated on the provided schedule.",
+                "original": "Additional call out charges must be stated on the schedule."
               },
               "priority": "must",
               "confidence": "high",
@@ -1838,9 +1473,9 @@
       "citedPersonIdArray": []
     },
     {
-      "bulletPoint": "Maintenance",
+      "bulletPoint": "Monitoring",
       "description": {
-        "en": "Requirements for ongoing maintenance, call-outs, and testing during the festive period."
+        "en": "Monitoring"
       },
       "priority": "must",
       "confidence": null,
@@ -1853,9 +1488,9 @@
       "openQuestionId": null,
       "deliverableArray": [
         {
-          "bulletPoint": "Call-Out Services",
+          "bulletPoint": "Supervision",
           "description": {
-            "en": "Requirements for on-demand maintenance call-outs, including festive and emergency coverage."
+            "en": "Oversight of work progress by Town Council representative."
           },
           "priority": "must",
           "confidence": null,
@@ -1868,10 +1503,9 @@
           "openQuestionId": null,
           "deliverableArray": [
             {
-              "bulletPoint": "All-inclusive call outs during festive period for lights erected and maintenance checks",
+              "bulletPoint": "Town Council representative will monitor work regularly",
               "description": {
-                "en": "Provide all-inclusive call-out service during the festive period for erected lights and maintenance checks.",
-                "original": "The cost of all- inclusive call outs during the festive period for lights erected and maintenance checks"
+                "en": "A Town Council representative will monitor the work carried out on a regular basis."
               },
               "priority": "must",
               "confidence": "high",
@@ -1884,17 +1518,231 @@
               "openQuestionId": null,
               "deliverableArray": [],
               "procurementDocumentChunkIdArray": [
-                "doc0_p3_c1"
+                "doc0_p2_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Issue Resolution",
+          "description": {
+            "en": "Reporting and handling of concerns through Town Clerk."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Concerns reported to Town Clerk for action",
+              "description": {
+                "en": "Any concerns will be reported to the Town Clerk who will agree an appropriate course of action with the Contractor."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p2_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    },
+    {
+      "bulletPoint": "Tender Process",
+      "description": {
+        "en": "Tender Process"
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
+        {
+          "bulletPoint": "Evaluation Timeline",
+          "description": {
+            "en": "Dates and deadlines for tender evaluation activities."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Tenders considered by Town Council on 9 June 2026",
+              "description": {
+                "en": "All tenders will be considered by the Town Council on 9 June 2026."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p2_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Notification Schedule",
+          "description": {
+            "en": "Timeline for notifying tender outcomes."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Response to tenders week commencing 15 June 2026",
+              "description": {
+                "en": "All tenders will receive a response from the Town Council week commencing 15 June 2026."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p2_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    },
+    {
+      "bulletPoint": "Installation",
+      "description": {
+        "en": "Installation"
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
+        {
+          "bulletPoint": "Timeline & Scheduling",
+          "description": {
+            "en": "Key dates and milestones for installation and dismantling."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Installation testing and lighting readiness timeline",
+              "description": {
+                "en": "Installation testing must begin on 1 November 2026, and the lights must be in working order no later than one week prior to the switch-on date of Saturday 28 November 2026."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
               ],
               "workspaceDocumentChunkIdArray": [],
               "citedProductIdArray": [],
               "citedPersonIdArray": []
             },
             {
-              "bulletPoint": "24-hour call-out for major faults",
+              "bulletPoint": "Dismantle lights after 6 January, no later than 12 January",
               "description": {
-                "en": "The contractor must provide a call-out within 24 hours for major faults such as complete motif failure, vandalism, storm damage, or traffic accidents.",
-                "original": "we require a call out within 24 hours for major faults including, but not limited to, complete failure of a motif or light string, extreme damage caused through vandalism, storms or road traffic accident."
+                "en": "Lights must be dismantled and removed as soon as possible after 6 January each year, but no later than 12 January.",
+                "original": "The lights are to be dismantled and removed as soon as after 6 January each year as possible, but no later than 12 January each year."
               },
               "priority": "must",
               "confidence": "high",
@@ -1920,9 +1768,9 @@
           "citedPersonIdArray": []
         },
         {
-          "bulletPoint": "Scheduled Inspections",
+          "bulletPoint": "Traffic & Pedestrian Management",
           "description": {
-            "en": "Requirements for planned, periodic maintenance inspections."
+            "en": "Measures to minimize disruption during installation."
           },
           "priority": "must",
           "confidence": null,
@@ -1935,7 +1783,525 @@
           "openQuestionId": null,
           "deliverableArray": [
             {
-              "bulletPoint": "Two scheduled run-throughs for maintenance",
+              "bulletPoint": "Minimize disruption to traffic and pedestrians",
+              "description": {
+                "en": "Work must be undertaken with little disruption to traffic and pedestrians, and with consideration for the environment."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Switch-On Event",
+          "description": {
+            "en": "Requirements for the official switch-on day."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Contractor present on switch-on day (28 Nov 2026) to manually switch on lights",
+              "description": {
+                "en": "The contractor must be present on the day of the switch-on, Saturday 28 November 2026, to manually switch on the lights after a countdown. Attend the switch on event."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Lighting Controls",
+          "description": {
+            "en": "Configuration of automatic timers for the lights."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Set lights to automatic timers (4pm-10pm weekdays, 4pm-11pm weekends)",
+              "description": {
+                "en": "After switch-on, lights must be set to automatic timers: on at 4pm, off at 10pm weekdays, and 4pm to 11pm weekends."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Safety & Structural Checks",
+          "description": {
+            "en": "Inspection of anchor points and structural integrity."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Check all anchor points",
+              "description": {
+                "en": "Check all anchor points."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Installation of Lights",
+          "description": {
+            "en": "Installation and activation of various light sets."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Install and activate 23 sets of pea lights to memorial garden",
+              "description": {
+                "en": "Install and activate 23 sets of pea lights to the memorial garden."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Install and activate 1 set of pea lights to tree on the square",
+              "description": {
+                "en": "Install and activate 1 set of pea lights to the tree on the square."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Install and activate 1 set of lights to fir tree in memorial garden",
+              "description": {
+                "en": "Install and activate 1 set of lights to the fir tree within the memorial garden."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Install festoons to front of Harwood's building & butchers' shop",
+              "description": {
+                "en": "Install festoons to the front of Harwood's building and butchers' shop."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Install string lights from top of church street zig-zagging up high street to social club",
+              "description": {
+                "en": "Install string lights from the top of church street zig-zagging up the high street to the social club."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Installation of Features & Signage",
+          "description": {
+            "en": "Installation of decorative features, motifs, and signs."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Install features to poles within memorial garden",
+              "description": {
+                "en": "Install features to the poles within the memorial garden."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Install 'welcome to Broseley' sign across high street",
+              "description": {
+                "en": "Install 'welcome to Broseley' sign across the high street (Victoria Hall to Bridal Shop)."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Install 2x snow fall column motifs",
+              "description": {
+                "en": "Install 2x snow fall column motifs."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    },
+    {
+      "bulletPoint": "Removal",
+      "description": {
+        "en": "Removal"
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
+        {
+          "bulletPoint": "Lighting Removal",
+          "description": {
+            "en": "Dismantling and removal of all lighting fixtures."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Removal of all lights",
+              "description": {
+                "en": "Remove all lights after the festive period."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    },
+    {
+      "bulletPoint": "Maintenance",
+      "description": {
+        "en": "Maintenance"
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
+        {
+          "bulletPoint": "Call Outs",
+          "description": {
+            "en": "Requirements for on-demand maintenance visits including festival periods."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "All-inclusive call outs during festival period for lights erected and maintenance checks",
+              "description": {
+                "en": "Include cost of all-inclusive call outs during the festival period for lights erected and maintenance checks."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p3_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Scheduled Inspections",
+          "description": {
+            "en": "Planned maintenance run-throughs at specified intervals."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Two scheduled maintenance run-throughs",
               "description": {
                 "en": "The contractor must perform two scheduled inspections of the display to check functionality and address minor faults.",
                 "original": "We require two scheduled run throughs of the display to check everything is functioning properly and to attend to any minor faults."
@@ -1964,9 +2330,53 @@
           "citedPersonIdArray": []
         },
         {
-          "bulletPoint": "Testing and Minor Repairs",
+          "bulletPoint": "Emergency Call-Out",
           "description": {
-            "en": "Requirements for testing equipment and performing minor repairs during scheduled downtime."
+            "en": "Immediate response for major faults with 24-hour availability."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "24-hour call-out for major faults",
+              "description": {
+                "en": "The contractor must provide a call-out within 24 hours for major faults such as complete motif failure, vandalism, storm damage, or traffic accidents.",
+                "original": "We require a call out within 24 hours for major faults including, but not limited to, complete failure of a motif or light string, extreme damage caused through vandalism, storms or road traffic accident."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p4_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Testing",
+          "description": {
+            "en": "Verification of lights and features during non-operational periods."
           },
           "priority": "must",
           "confidence": null,
@@ -1981,7 +2391,7 @@
             {
               "bulletPoint": "Test lights and features during downtime",
               "description": {
-                "en": "All lights and features must be tested during downtime, and minor repairs like replacing bulbs and fixing faulty connections must be undertaken.",
+                "en": "All lights and features must be tested during downtime, with minor repairs like replacing bulbs and fixing connections undertaken.",
                 "original": "All lights and features are to be tested during downtime and any minor work required such as replacing bulbs and fixing faulty connections is to be undertaken."
               },
               "priority": "must",
@@ -2016,7 +2426,7 @@
     {
       "bulletPoint": "Communication",
       "description": {
-        "en": "Requirements for reporting and communication with the Town Council."
+        "en": "Communication"
       },
       "priority": "must",
       "confidence": null,
@@ -2031,7 +2441,7 @@
         {
           "bulletPoint": "Defect Notification",
           "description": {
-            "en": "Requirements for notifying about defective items needing repair."
+            "en": "Procedures for notifying the buyer about defective items requiring major repair."
           },
           "priority": "must",
           "confidence": null,
@@ -2046,8 +2456,469 @@
             {
               "bulletPoint": "Notify BTC immediately of defective items needing major repair",
               "description": {
-                "en": "The contractor must notify BTC immediately of any defective lights or features that require major repair at additional cost or cannot be repaired, so replacement can be considered in good time.",
+                "en": "The contractor must notify BTC immediately of any defective lights or features that require major repair at additional cost or cannot be repaired.",
                 "original": "The contractor will notify BTC immediately of any defective lights and features that require major repair at additional cost or that cannot be repaired so replacement can be considered in good time."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p4_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    },
+    {
+      "bulletPoint": "Administrative",
+      "description": {
+        "en": "Administrative"
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
+        {
+          "bulletPoint": "Submission Requirements",
+          "description": {
+            "en": "Rules and deadlines for submitting the tender."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Submission deadline: 2 June 2026",
+              "description": {
+                "en": "Tenders must be submitted by the deadline of 2 June 2026.",
+                "original": "Deadline for submission: 2 June 2026"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p4_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Submit tender in writing in sealed marked envelope",
+              "description": {
+                "en": "Tenders must be submitted in writing in a sealed envelope marked 'Tender', addressed to the Town Clerk.",
+                "original": "Tenders are to be submitted in writing in a sealed marked envelope addressed to the Town Clerk. The envelope should be clearly marked 'Tender'."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p4_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Tender Opening and Evaluation",
+          "description": {
+            "en": "Procedures for opening tenders and evaluating them."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Tenders opened after deadline by Town Clerk with two councillors",
+              "description": {
+                "en": "Tenders shall be opened by the Town Clerk in the presence of at least two councillors after the submission deadline.",
+                "original": "Tenders shall be opened by the Town Clerk in the presence of at least two councillors after the deadline for submission of tenders has passed."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p4_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            },
+            {
+              "bulletPoint": "Tenders considered at properly convened meeting",
+              "description": {
+                "en": "Tenders will be reported to and considered by the Town Council at a properly convened meeting.",
+                "original": "Tenders will be reported to and considered by the Town Council at a properly convened meeting."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p4_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    },
+    {
+      "bulletPoint": "Documentation",
+      "description": {
+        "en": "Documentation"
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
+        {
+          "bulletPoint": "Insurance",
+          "description": {
+            "en": "Requirements related to insurance certificates."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Provide current public liability certificate",
+              "description": {
+                "en": "A current public liability certificate must be included with the tender.",
+                "original": "Current public liability certificate"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p4_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Certifications",
+          "description": {
+            "en": "Requirements for specific industry or scheme certifications."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Provide Highway Electrical Registration Scheme certificate",
+              "description": {
+                "en": "A Highway Electrical Registration Scheme certificate must be included.",
+                "original": "Highway Electrical Registration Scheme"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p4_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Health & Safety",
+          "description": {
+            "en": "Requirements for health and safety documentation."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Provide Health and Safety Policy",
+              "description": {
+                "en": "A Health and Safety Policy must be provided with the tender.",
+                "original": "Health and Safety Policy"
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p5_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "General Documentation",
+          "description": {
+            "en": "Requirements for any other pertinent documents or certificates."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Provide any other pertinent documents/certificates",
+              "description": {
+                "en": "Any other pertinent documents or certificates must be provided.",
+                "original": "Any other pertinent documents/certificates"
+              },
+              "priority": "must",
+              "confidence": "medium",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p5_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        }
+      ],
+      "procurementDocumentChunkIdArray": [],
+      "workspaceDocumentChunkIdArray": [],
+      "citedProductIdArray": [],
+      "citedPersonIdArray": []
+    },
+    {
+      "bulletPoint": "Legal & Compliance",
+      "description": {
+        "en": "Legal & Compliance"
+      },
+      "priority": "must",
+      "confidence": null,
+      "equivalenceAllowed": null,
+      "fullfillable": null,
+      "status": "waitingForAnalysis",
+      "aiReasoning": null,
+      "feedback": null,
+      "feedbackText": null,
+      "openQuestionId": null,
+      "deliverableArray": [
+        {
+          "bulletPoint": "Procurement Rules",
+          "description": {
+            "en": "Requirements related to procurement regulations and legal frameworks."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "Follow Standing Order 17 and Bribery Act 2010",
+              "description": {
+                "en": "All tenders are subject to the Town Council's Standing Order 17 and the Bribery Act 2010.",
+                "original": "All invitations to tender are subject to the Town Council’s Standing Order number 17 and the terms of the Bribery Act 2010."
+              },
+              "priority": "must",
+              "confidence": "high",
+              "equivalenceAllowed": null,
+              "fullfillable": null,
+              "status": "waitingForAnalysis",
+              "aiReasoning": null,
+              "feedback": null,
+              "feedbackText": null,
+              "openQuestionId": null,
+              "deliverableArray": [],
+              "procurementDocumentChunkIdArray": [
+                "doc0_p4_c0"
+              ],
+              "workspaceDocumentChunkIdArray": [],
+              "citedProductIdArray": [],
+              "citedPersonIdArray": []
+            }
+          ],
+          "procurementDocumentChunkIdArray": [],
+          "workspaceDocumentChunkIdArray": [],
+          "citedProductIdArray": [],
+          "citedPersonIdArray": []
+        },
+        {
+          "bulletPoint": "Ethical Conduct",
+          "description": {
+            "en": "Requirements ensuring ethical behavior and preventing improper influence."
+          },
+          "priority": "must",
+          "confidence": null,
+          "equivalenceAllowed": null,
+          "fullfillable": null,
+          "status": "waitingForAnalysis",
+          "aiReasoning": null,
+          "feedback": null,
+          "feedbackText": null,
+          "openQuestionId": null,
+          "deliverableArray": [
+            {
+              "bulletPoint": "No contacting councillors or staff outside prescribed process",
+              "description": {
+                "en": "Contractors must not contact councillors or staff to encourage or support their tender outside the prescribed process.",
+                "original": "No contractor shall contact councillors or staff to encourage or support their tender outside the prescribed process."
               },
               "priority": "must",
               "confidence": "high",

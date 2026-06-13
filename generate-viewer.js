@@ -10,10 +10,14 @@ if (files.length === 0) {
   process.exit(1);
 }
 
-// Use the most recently modified file
-const latest = files.sort((a, b) => {
-  return fs.statSync(path.join(outputDir, b)).mtimeMs - fs.statSync(path.join(outputDir, a)).mtimeMs;
-})[0];
+// generate a viewer for every extracted JSON in the output folder
+for (const file of files) {
+  generateViewer(file);
+}
+process.exit(0);
+
+function generateViewer(filename) {
+const latest = filename;
 const jsonPath = path.join(outputDir, latest);
 const data = JSON.parse(fs.readFileSync(jsonPath, "utf-8"));
 
@@ -185,3 +189,4 @@ function filterTree(q) {
 const outPath = path.join(outputDir, latest.replace("_extracted.json", "_viewer.html"));
 fs.writeFileSync(outPath, html, "utf-8");
 console.log("Viewer written to:", outPath);
+}
