@@ -1,4 +1,5 @@
 import OpenAI from "openai";
+import { warn } from "../utils/logger";
 
 const MAX_RETRIES = parseInt(process.env.MAX_RETRIES ?? "3", 10);
 const MAX_CONCURRENT = parseInt(process.env.LLM_MAX_CONCURRENT ?? "5", 10);
@@ -76,7 +77,7 @@ export async function llmChat(
       lastErr = err;
       if (attempt < MAX_RETRIES) {
         const wait = attempt * 2000;
-        console.warn(`[LLM] attempt ${attempt}/${MAX_RETRIES} failed, retrying in ${wait / 1000}s — ${String(err)}`);
+        warn(`[LLM] attempt ${attempt}/${MAX_RETRIES} failed, retrying in ${wait / 1000}s — ${String(err)}`);
         await new Promise((r) => setTimeout(r, wait));
       }
     }

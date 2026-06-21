@@ -3,6 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 import { DocumentChunk, RawRequirement } from "../types/procurement";
 import { llmJson } from "./llmClient";
 import { RawRequirementArraySchema, RawRequirementLLMOutput } from "../validators/zodSchemas";
+import { log, warn, error } from "../utils/logger";
 
 const BATCH_SIZE  = parseInt(process.env.EXTRACTION_BATCH_SIZE  ?? "3", 10);
 const MAX_RETRIES = parseInt(process.env.MAX_RETRIES            ?? "3", 10);
@@ -19,7 +20,7 @@ export async function extractRequirements(
 ): Promise<RawRequirement[]> {
   const batches = makeBatches(chunks, BATCH_SIZE);
 
-  console.log(
+  log(
     `[Extractor] Starting extraction — ${chunks.length} chunks, ` +
     `batch size ${BATCH_SIZE}, concurrency ${CONCURRENCY}`
   );
@@ -30,9 +31,9 @@ export async function extractRequirements(
     try {
       const saved = JSON.parse(fs.readFileSync(checkpointPath, "utf-8")) as Record<string, RawRequirement[]>;
       for (const [k, v] of Object.entries(saved)) done.set(parseInt(k), v);
-      console.log(`[Extractor] Resuming — ${done.size}/${batches.length} batches already done`);
+      log(`[Extractor] Resuming — ${done.size}/${batches.length} batches already done`);
     } catch {
-      console.warn("[Extractor] Couldn't read checkpoint, starting fresh");
+      warn("[Extractor] Couldn't read checkpoint, starting fresh");
     }
   }
 
@@ -42,7 +43,7 @@ export async function extractRequirements(
   }
 
   const pending = batches.map((_, i) => i).filter((i) => results[i] === null);
-  console.log(`[Extractor] ${pending.length} batches to process (${batches.length - pending.length} from checkpoint)`);
+  log(`[Extractor] ${pending.length} batches to process (${batches.length - pending.length} from checkpoint)`);
 
   await runParallel(pending, CONCURRENCY, async (idx) => {
     const reqs = await processBatch(batches[idx], idx + 1, batches.length);
@@ -55,18 +56,18 @@ export async function extractRequirements(
     }
 
     const total = results.flat().filter(Boolean).length;
-    console.log(
+    log(
       `[Extractor] Batch ${idx + 1}/${batches.length} — ` +
       `extracted ${reqs.length} req(s). Progress: ${results.filter(Boolean).length}/${batches.length} batches done, ${total} reqs so far`
     );
   });
 
   const all = results.flat();
-  console.log(`[Extractor] Complete — ${all.length} raw requirements extracted`);
+  log(`[Extractor] Complete — ${all.length} raw requirements extracted`);
 
   if (checkpointPath && fs.existsSync(checkpointPath)) {
     fs.unlinkSync(checkpointPath);
-    console.log(`[Extractor] Checkpoint removed`);
+    log(`[Extractor] Checkpoint removed`);
   }
 
   return all;
@@ -95,11 +96,11 @@ async function processBatch(
       return parsed.requirements.map((r) => ({ ...r, rawId: uuidv4() }));
 
     } catch (err) {
-      console.warn(
+      warn(
         `[Extractor] Batch ${num}/${total} attempt ${attempt}/${MAX_RETRIES} failed: ${String(err).slice(0, 120)}`
       );
       if (attempt === MAX_RETRIES) {
-        console.error(`[Extractor] Batch ${num}/${total} — all retries exhausted, skipping`);
+        error(`[Extractor] Batch ${num}/${total} — all retries exhausted, skipping`);
         return [];
       }
     }

@@ -2,6 +2,7 @@ import { v4 as uuidv4 } from "uuid";
 import { RawRequirement, ConsolidatedRequirement } from "../types/procurement";
 import { llmJson } from "../extractors/llmClient";
 import { ConsolidationOutputSchema, ConsolidationLLMOutput } from "../validators/zodSchemas";
+import { log, warn, error } from "../utils/logger";
 
 const MAX_RETRIES            = parseInt(process.env.MAX_RETRIES               ?? "3",  10);
 const BATCH_SIZE             = parseInt(process.env.CONSOLIDATION_BATCH_SIZE  ?? "30", 10);
@@ -25,10 +26,10 @@ const CONCURRENCY            = parseInt(process.env.CONSOLIDATION_CONCURRENCY ??
 export async function consolidateRequirements(
   raw: RawRequirement[]
 ): Promise<ConsolidatedRequirement[]> {
-  console.log(`[Consolidator] Starting — ${raw.length} raw requirements to consolidate`);
+  log(`[Consolidator] Starting — ${raw.length} raw requirements to consolidate`);
 
   const groups = buildCoarseGroups(raw);
-  console.log(`[Consolidator] Coarse grouping produced ${groups.length} group(s)`);
+  log(`[Consolidator] Coarse grouping produced ${groups.length} group(s)`);
 
   const groupResults: ConsolidatedRequirement[][] = new Array(groups.length).fill(null);
   const mergeCounts:  number[]                    = new Array(groups.length).fill(0);
@@ -45,7 +46,7 @@ export async function consolidateRequirements(
         if (group.length === 1) {
           out.push(toConsolidated(group[0], [group[0].rawId]));
         } else {
-          console.log(
+          log(
             `[Consolidator] Group ${gi + 1}/${groups.length} — ` +
             `"${group[0].suggestedL1Category} / ${group[0].suggestedL2Category}" (${group.length} candidates)`
           );
@@ -63,7 +64,7 @@ export async function consolidateRequirements(
 
               if (mg.mergedIds.length > 1) {
                 merges++;
-                console.log(
+                log(
                   `[Consolidator] Merged ${mg.mergedIds.length} fragments → "${mg.mergedBulletPoint}" (chunks: ${chunkIds.join(", ")})`
                 );
               }
@@ -93,7 +94,7 @@ export async function consolidateRequirements(
   const consolidated = groupResults.flat();
   const totalMerges  = mergeCounts.reduce((a, b) => a + b, 0);
 
-  console.log(
+  log(
     `[Consolidator] Complete — ${raw.length} raw → ${consolidated.length} consolidated ` +
     `(${totalMerges} merge operations performed)`
   );
@@ -167,7 +168,7 @@ Respond ONLY with valid JSON:
       const covered = new Set(parsed.groups.flatMap((g) => g.mergedIds));
       for (const c of candidates) {
         if (!covered.has(c.rawId)) {
-          console.warn(`[Consolidator] LLM dropped rawId ${c.rawId} — adding as singleton`);
+          warn(`[Consolidator] LLM dropped rawId ${c.rawId} — adding as singleton`);
           parsed.groups.push({
             representativeId:   c.rawId,
             mergedIds:          [c.rawId],
@@ -182,9 +183,9 @@ Respond ONLY with valid JSON:
       return parsed.groups;
 
     } catch (err) {
-      console.warn(`[Consolidator] Attempt ${attempt}/${MAX_RETRIES} failed: ${String(err)}`);
+      warn(`[Consolidator] Attempt ${attempt}/${MAX_RETRIES} failed: ${String(err)}`);
       if (attempt === MAX_RETRIES) {
-        console.error(`[Consolidator] All retries exhausted — returning candidates as singletons`);
+        error(`[Consolidator] All retries exhausted — returning candidates as singletons`);
         return candidates.map((c) => ({
           representativeId:    c.rawId,
           mergedIds:           [c.rawId],

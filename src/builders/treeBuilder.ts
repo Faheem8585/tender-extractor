@@ -5,6 +5,7 @@ import {
 } from "../types/procurement";
 import { llmJson } from "../extractors/llmClient";
 import { z } from "zod";
+import { log, warn, error } from "../utils/logger";
 
 const MAX_RETRIES    = parseInt(process.env.MAX_RETRIES         ?? "3",   10);
 const L2_BATCH_SIZE  = parseInt(process.env.TREE_L2_BATCH_SIZE  ?? "120", 10);
@@ -43,16 +44,16 @@ type L2Result = z.infer<typeof L2Schema>;
 export async function buildTree(
   consolidated: ConsolidatedRequirement[]
 ): Promise<ProcurementMatchDeliverable[]> {
-  console.log(`[Tree Builder] Building tree from ${consolidated.length} consolidated requirements`);
+  log(`[Tree Builder] Building tree from ${consolidated.length} consolidated requirements`);
 
   if (consolidated.length === 0) return [];
 
   // step A
-  console.log("[Tree Builder] Step A — determining L1 categories");
+  log("[Tree Builder] Step A — determining L1 categories");
   const l1 = await getL1Categories(consolidated);
 
   // step B — all L1 buckets in parallel
-  console.log(`[Tree Builder] Step B — assigning L2 sub-categories for ${l1.l1Categories.length} L1 nodes (concurrency ${CONCURRENCY})`);
+  log(`[Tree Builder] Step B — assigning L2 sub-categories for ${l1.l1Categories.length} L1 nodes (concurrency ${CONCURRENCY})`);
 
   const reqMap   = new Map(consolidated.map((r) => [r.consolidatedId, r]));
   const structure: Array<{ l1Name: string; l1Description: string; l2Categories: L2Result["l2Categories"] }> =
@@ -65,7 +66,7 @@ export async function buildTree(
         const { cat, idx } = queue.shift()!;
         const reqs = cat.requirementIds.map((id) => reqMap.get(id)).filter(Boolean) as ConsolidatedRequirement[];
 
-        console.log(`[Tree Builder]   L1 "${cat.name}" — ${reqs.length} requirements → assigning L2`);
+        log(`[Tree Builder]   L1 "${cat.name}" — ${reqs.length} requirements → assigning L2`);
         const l2 = await getL2Categories(cat.name, reqs);
 
         structure[idx] = { l1Name: cat.name, l1Description: cat.description, l2Categories: l2.l2Categories };
@@ -88,13 +89,13 @@ export async function buildTree(
   const l1c = tree.length;
   const l2c = tree.reduce((s, n) => s + n.deliverableArray.length, 0);
   const l3c = tree.reduce((s, n) => s + n.deliverableArray.reduce((s2, n2) => s2 + n2.deliverableArray.length, 0), 0);
-  console.log(`[Tree Builder] Final tree: ${l1c} L1 / ${l2c} L2 / ${l3c} L3 leaves`);
+  log(`[Tree Builder] Final tree: ${l1c} L1 / ${l2c} L2 / ${l3c} L3 leaves`);
 
   // catch anything the LLM missed and dump it in a misc bucket
   const placed = new Set(structure.flatMap((s) => s.l2Categories.flatMap((l2) => l2.requirementIds)));
   const missed = consolidated.filter((r) => !placed.has(r.consolidatedId));
   if (missed.length > 0) {
-    console.warn(`[Tree Builder] ${missed.length} requirement(s) not placed — adding to Miscellaneous`);
+    warn(`[Tree Builder] ${missed.length} requirement(s) not placed — adding to Miscellaneous`);
     tree.push(groupNode("Miscellaneous", { en: "Requirements not categorised in the main structure" }, [
       groupNode("Uncategorised", { en: "Uncategorised" }, missed.map(buildLeaf)),
     ]));
@@ -128,14 +129,14 @@ Return ONLY valid JSON:
       const covered = new Set(parsed.l1Categories.flatMap((c) => c.requirementIds));
       const missing = consolidated.map((r) => r.consolidatedId).filter((id) => !covered.has(id));
       if (missing.length > 0) {
-        console.warn(`[Tree Builder] L1 pass missed ${missing.length} ids — adding to last bucket`);
+        warn(`[Tree Builder] L1 pass missed ${missing.length} ids — adding to last bucket`);
         parsed.l1Categories[parsed.l1Categories.length - 1].requirementIds.push(...missing);
       }
       return parsed;
     } catch (err) {
-      console.warn(`[Tree Builder] L1 attempt ${attempt}/${MAX_RETRIES} failed: ${String(err)}`);
+      warn(`[Tree Builder] L1 attempt ${attempt}/${MAX_RETRIES} failed: ${String(err)}`);
       if (attempt === MAX_RETRIES) {
-        console.error("[Tree Builder] L1 retries exhausted — using heuristic L1 grouping");
+        error("[Tree Builder] L1 retries exhausted — using heuristic L1 grouping");
         return heuristicL1(consolidated);
       }
     }
@@ -148,12 +149,12 @@ async function getL2Categories(l1Name: string, reqs: ConsolidatedRequirement[]):
 
   // for big buckets, run in sub-batches and merge results by name
   if (reqs.length > L2_BATCH_SIZE) {
-    console.log(`[Tree Builder]   "${l1Name}" has ${reqs.length} reqs — splitting into batches of ${L2_BATCH_SIZE}`);
+    log(`[Tree Builder]   "${l1Name}" has ${reqs.length} reqs — splitting into batches of ${L2_BATCH_SIZE}`);
     const batches = makeBatches(reqs, L2_BATCH_SIZE);
     const merged  = new Map<string, { name: string; description: string; requirementIds: string[] }>();
 
     for (let bi = 0; bi < batches.length; bi++) {
-      console.log(`[Tree Builder]   L2 batch ${bi + 1}/${batches.length} for "${l1Name}" (${batches[bi].length} reqs)`);
+      log(`[Tree Builder]   L2 batch ${bi + 1}/${batches.length} for "${l1Name}" (${batches[bi].length} reqs)`);
       const res = await getL2Categories(l1Name, batches[bi]);
       for (const cat of res.l2Categories) {
         const key = cat.name.toLowerCase().trim();
@@ -190,14 +191,14 @@ Return ONLY valid JSON:
       const covered = new Set(parsed.l2Categories.flatMap((c) => c.requirementIds));
       const missing = reqs.map((r) => r.consolidatedId).filter((id) => !covered.has(id));
       if (missing.length > 0) {
-        console.warn(`[Tree Builder] L2 pass for "${l1Name}" missed ${missing.length} ids — adding to last bucket`);
+        warn(`[Tree Builder] L2 pass for "${l1Name}" missed ${missing.length} ids — adding to last bucket`);
         parsed.l2Categories[parsed.l2Categories.length - 1].requirementIds.push(...missing);
       }
       return parsed;
     } catch (err) {
-      console.warn(`[Tree Builder] L2 attempt ${attempt}/${MAX_RETRIES} for "${l1Name}" failed: ${String(err)}`);
+      warn(`[Tree Builder] L2 attempt ${attempt}/${MAX_RETRIES} for "${l1Name}" failed: ${String(err)}`);
       if (attempt === MAX_RETRIES) {
-        console.error(`[Tree Builder] L2 retries exhausted for "${l1Name}" — using heuristic`);
+        error(`[Tree Builder] L2 retries exhausted for "${l1Name}" — using heuristic`);
         return heuristicL2(reqs);
       }
     }
