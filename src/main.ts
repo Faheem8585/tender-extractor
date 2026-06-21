@@ -17,7 +17,7 @@ import { extractRequirements }    from "./extractors/requirementExtractor";
 import { consolidateRequirements } from "./consolidators/chunkConsolidator";
 import { buildTree }              from "./builders/treeBuilder";
 import { PipelineResult }         from "./types/procurement";
-import { log, error as logError } from "./utils/logger";
+import { log, error as logError, initLogger } from "./utils/logger";
 
 dotenv.config();
 
@@ -56,6 +56,9 @@ async function main(): Promise<void> {
 
   const tenderName = path.basename(pdfPaths[0], ".pdf");
   const startTime  = Date.now();
+
+  const logPath = path.join(outputDir, `${tenderName}_run.log`);
+  initLogger(logPath);
 
   log("=".repeat(60));
   log(`Tender Extraction Pipeline`);
@@ -112,6 +115,7 @@ async function main(): Promise<void> {
   );
   log(`Output:      ${outputPath}`);
   log(`Sidecar:     ${sidecarPath}`);
+  log(`Log:         ${logPath}`);
   log("=".repeat(60));
 }
 
